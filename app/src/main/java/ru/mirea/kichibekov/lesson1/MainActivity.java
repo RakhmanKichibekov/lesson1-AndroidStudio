@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 k += 1;
                 if (k % 2 == 1) {
-                    textHello.setText("Бегемотик");
+                    textHello.setText("Есть кредит");
                 } else {
-                    textHello.setText("Больше не бегемотик");
+                    textHello.setText("Нет кредита");
 
                 }
             }
